@@ -3,7 +3,7 @@ package Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Producto implements IObservadorStock {
+public class Producto  {
     private String nombre;
     private int stock;
     private List<IObservadorStock> observadores;
