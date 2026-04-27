@@ -26,10 +26,6 @@ public class Configuracion {
         return instancia;
     }
 
-    public static void setInstancia(Configuracion instancia) {
-        Configuracion.instancia = instancia;
-    }
-
     public String getIdioma() {
         return idioma;
     }
